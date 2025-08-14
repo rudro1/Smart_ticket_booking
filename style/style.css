@@ -1,0 +1,141 @@
+@import "tailwindcss";
+
+
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz@0,14..32;1,14..32&family=Raleway:ital,wght@0,700;1,700&display=swap');
+
+
+.raleway-regular {
+  font-family: "Raleway", sans-serif;
+  font-optical-sizing: auto;
+ font-weight: 400;
+  font-style: normal;
+}
+
+.raleway-italic {
+  font-family: "Raleway", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 700;
+font-style:oblique;
+
+}
+
+.raleway-medium {
+  font-family: "Raleway", sans-serif;
+  font-optical-sizing: auto;
+ font-weight: 500;
+  font-style: normal;
+}
+.raleway-extrabold {
+  font-family: "Raleway", sans-serif;
+  font-optical-sizing: auto;
+ font-weight: 800;
+  font-style: normal;
+}
+
+.raleway-bold {
+  font-family: "Raleway", sans-serif;
+  font-optical-sizing: auto;
+ font-weight: 600;
+  font-style: normal;
+}
+
+.inter-regular {
+  font-family: "Inter", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+}
+.inter-bold{
+font-family: "Inter", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 700;
+  font-style: normal;
+
+}
+
+
+.inter-medium{
+  font-family: "Inter", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 500;
+  font-style: normal;
+}
+
+.inter-semibold{
+font-family: "Inter", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 600;
+  font-style: normal;
+
+}
+.inter-black {
+  font-family: "Inter", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 900;
+  font-style: normal;
+}
+
+.btn:hover{
+
+  background-color: red;
+  color: white;
+}
+
+
+
+html {
+  scroll-behavior: smooth;
+}
+
+.change{
+  background-color: green;
+  color: white;
+}
+
+.total_selected_set{
+
+  background-color: #0307120a;
+ 
+}
+
+.total_selected_set tr{
+  color: #030712;
+
+}
+/* #inputcuppon input:focus{
+outline: none;
+background-color: red;
+border: 0px solid none;
+ 
+  /* background-color: red;
+height: 300px;
+  display: inline-block; */
+/* } */
+
+/* input:focus-visible{
+    outline: none; /* ensure no outline on focus */
+    /* border: none;  /* ensure border stays removed */
+  /* border-bottom-color: white;
+   border-left-color: white;
+
+    border-right-color: white;
+    border-top-color: white; */ 
+/* } */ 
+
+
+.input_style{
+
+  border: 1px solid #03071266;
+  background-color: white;
+  visibility: visible;
+  display: block;
+  
+}
+
+ #inputcuppon {
+        &:focus-within {
+            --input-color: green;
+        }
+    }
+
+  

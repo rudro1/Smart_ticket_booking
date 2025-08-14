@@ -1,0 +1,751 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/daisyui@5" rel="stylesheet" type="text/css" />
+<script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+    
+    <link rel="stylesheet" href="style/style.css">
+    
+    <title>Bus Ticket</title>
+</head>
+<body >
+   
+<main id="main">
+<div class="header  ">
+  
+
+<div  id="chk" class="navbar bg-base-100 shadow-sm raleway-medium">
+  <div class="navbar-start">
+    <div class="dropdown">
+      <div tabindex="0" role="button" class="btn btn-ghost lg:hidden">
+        <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" fill="none" viewBox="0 0 24 24" stroke="currentColor"> <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h8m-8 6h16" /> </svg>
+      </div>
+      <ul
+        tabindex="0"
+        class="menu menu-sm dropdown-content bg-base-100 rounded-box z-1 mt-3 w-52 p-2 shadow">
+          <ul class="menu menu-vertical px-1">
+      <li><a>Home</a></li>
+       <li><a>About</a></li>
+        <li><a>Destination</a></li>
+         <li><a>Search</a></li>
+      
+    </ul>
+      </ul>
+    </div>
+    <a class="btn btn-ghost text-3xl raleway-extrabold">P-Ticket</a>
+  </div>
+  <div class="navbar-center hidden lg:flex">
+    <ul class="menu menu-horizontal px-1 text-lg">
+      <li><a>Home</a></li>
+       <li><a>About</a></li>
+        <li><a>Destination</a></li>
+         <li><a>Search</a></li>
+      
+    </ul>
+  </div>
+  <div class="navbar-end ">
+    <a class="btn raleway-bold text-[#1DD100] bg-[#1DD1001A] border-2 rounded-lg border-[#1DD10066] text-xl py-[20px]  px-[30px]"  href="#bestoffer" >Bus
+    <img src="images/bus-icon.png" alt="">
+    </a>
+  </div>
+</div>
+</div>
+
+<div class="section-2 bg-purple  md:relative  bg-[url(/images/banner.png)] rounded-3xl bg-repeat-y lg:bg-no-repeat bg-center text-center  flex flex-col items-center justify-center min-h-screen pt-10  ">
+
+
+
+<div class="section_2_container flex flex-col items-center gap-5  ">
+<div>
+
+  <p class="text-6xl raleway-extrabold text-white  ">End-to-End Travel with 
+    <span class="text-[#1DD100] flex flex-col pt-8">P Paribahan</span></p>
+</div>
+  <div class=" w-3/5  pb-4 ">
+    <p class="text-lg text-white inter-regular text-center">Yes, you can run unit tests and view the results directly within the app. 
+      The integrated testing features allow for a streamlined .</p>
+  </div>
+
+  
+
+
+<a class="btn raleway-bold text-[#030712] mt-0 bg-[#1DD100] border-2 rounded-lg border-[#1DD10066] text-xl py-[21px] px-[20px]" href="#bestoffer">Buy Tickets
+    </a>
+
+</div>
+
+
+<div class="cuppons flex  flex-col gap-y-4 md:flex-row  md:gap-x-10    md:absolute  justify-around  bottom-0 mt-20 ">
+
+
+  <div class="stats shadow rounded-2xl bg-white border-[#1DD100] border-b-4  py-3 px-4 ">
+  <div class="stat  ">
+    <div class="stat-figure text-primary">
+ 
+
+       <div class="stat-value text-primary text-[#030712] inter-bold text-3xl">500K+</div>
+    <div class="stat-desc text-black inter-regular text-[#03071299 ">Registered users</div>
+    </div>
+    <div class="stat-title">
+
+     <img src="images/people.png" alt="">
+    </div>
+   
+  </div>
+</div>
+
+
+ <div class="stats shadow rounded-2xl border-[#1DD100] border-b-4  bg-white  py-3 px-4 ">
+  <div class="stat  ">
+    <div class="stat-figure text-primary">
+ 
+
+       <div class="stat-value text-primary text-[#030712] inter-bold text-3xl">1.7 lacks</div>
+    <div class="stat-desc text-black inter-regular text-[#03071299 ">Tickets sold</div>
+    </div>
+    <div class="stat-title">
+
+     <img src="images/ticket-cupon.png" alt="">
+    </div>
+   
+  </div>
+</div>
+
+
+
+ <div class="stats shadow rounded-2xl border-[#1DD100] border-b-4  py-3 px-4 bg-white">
+  <div class="stat  ">
+    <div class="stat-figure text-primary">
+ 
+
+       <div class="stat-value text-primary text-[#030712] inter-bold text-3xl">80K+</div>
+    <div class="stat-desc text-black inter-regular text-[#03071299 ">RRental partners</div>
+    </div>
+    <div class="stat-title">
+
+     <img src="images/stoppage.png" alt="">
+    </div>
+   
+  </div>
+</div>
+</div>
+</div>
+<div class="section_3">
+
+
+<div id="bestoffer" class="section-3 flex flex-col items-center mt-10  gap-y-20">
+
+
+<p class="text-2xl raleway-bold text-[#030712]">Best offers for you</p>
+
+
+
+<div class="cupponscode flex flex-col gap-y-20 md:flex-row  justify-center md:gap-x-20">
+
+<div class="cuppon_1 flex gap-x-20  relative  justify-between bg-[#FFBF0F] items-center  rounded-3xl   px-18 py-10  ">
+<div class="cuppon-1_leftside flex  flex-col gap-y-2   ">
+<p class="text-3xl inter-black text-[#030712CC]">15% OFF</p>
+<p class="text-xl inter-medium text-[#030712CC]">on your next purchase</p>
+<p class="text-lg inter-medium text-[#03071266]">use by January 2024</p>
+
+</div>
+<div class="absolute right-0 top-0 bottom-0 left-1/2 ">
+  <img src="images/info-devider.png" alt="" class=" h-full">
+</div>
+
+
+<div class="cuppon-1_rightside flex flex-col gap-y-2 pl-10 md:pl-0">
+<p class="text-3xl raleway-bold text-[#030712]">NEW15</p>
+
+<p class="text-lg  inter-regular text-[#03071266]">Coupon Code</p>
+</div>
+
+
+</div>
+<div class="cuppon_2 flex  gap-x-20  relative justify-between items-center px-10 py-15  bg-[#F78C9C] text-[#030712] rounded-3xl   px-18 py-10 ">
+
+<div class="cuppon-2_leftside inter-regular  flex flex-col gap-y-2 ">
+<p class="text-4xl inter-black  text-[#030712CC]">20% OFF</p>
+<p class="text-xl text-[#030712CC] inter-medium">on your next purchase</p>
+<p class="text-lg inter-medium text-[#03071266]">use by January 2024</p>
+</div>
+<div class="absolute right-0 top-0 bottom-0 left-1/2 ">
+  <img src="images/info-devider.png" alt="" class=" h-full">
+</div>
+
+<div class="cuppon-2_rightside  flex flex-col pl-10 md:gap-y-2 md:pl-0  ">
+<p class="text-3xl raleway-bold text-[#030712]">Couple 20</p>
+
+<p class="text-lg inter-regular text-[#03071266]">Coupon Code</p>
+</div>
+
+
+</div>
+
+
+</div>
+
+
+
+
+ <a class="btn raleway-regular text-[#1DD100]  border-2 rounded-xl border-[#1DD100] text-xl py-[30px] px-[20px]" href="#chk">See All Offers
+   
+    </a>
+</div>
+
+</div>
+
+
+
+<div class="section_4  pt-10 flex flex-col items-center  bg-[#F7F8F8]  my-10  py-10  rounded-4xl border-t-4 border-[#1DD100] min-h-screen">
+
+   
+<div class="section_4_container_part-1 " >
+
+<div class="div_1 flex flex-col items-center text-center mb-10 ">
+<p class="text-5xl raleway-bold text-[#030712]">
+  P.H Paribahan
+</p>
+<p class="text-lg inter-regular text-[#03071299]">Yes, you can run unit tests and view the results directly within the app. The integrated testing features allow for a streamlined .</p>
+
+</div>
+
+<!-- <div class="bus_all_container flex flex-col md:flex-row relative md:justify-center items-center bg-[#ffff] rounded-2xl gap-y-10 my-10 pb-10" > -->
+  
+  <div class="bus_2ndPart relative flex flex-col items-center p-10  md:flex-row md:justify-center   bg-[#ffff] rounded-2xl mb-10 ">
+<div class="bus_time  flex flex-col items-center w-[90%] ">
+
+
+
+ <div class="flex flex-col gap-y-10 md:gap-x-20 items-center md:flex-row  greenline  ">
+   
+
+ <div class="bus_log flex flex-col md:flex-row   gap-4 ">
+
+     <div class=" flex justify-center md:inline-block"><img src="images/bus-logo.png" alt=""></div>
+
+    <div class=" text-primary raleway-bold text-4xl text-[#030712]">Greenline Paribahan
+
+         <div class=" text-sm inter-regular text-[#03071299] ">Coach-009-WEB ! AC_Business</div>
+    </div>
+ </div>
+
+
+  <div class=" btn_seat_available  md:mb-0 ">
+   <a  disabled class="btn inter-medium text-[#1DD100] bg-[#1DD1001A] border-2 rounded-lg border-[#1DD10066] text-xl py-[20px]  px-[50px]"  href="#" >
+ <img src="images/seat-green-filled.png" alt="" id=" seat-Available" class="pr-2"><span id="seat_available">40</span>  Seats left     
+    </a>
+    </div>
+</div>
+ 
+
+
+
+   <div class=" table rounded-box  bg-[#F7F8F8] border-base-content/5   rounded-xl mt-10  ">
+  <table class="table">
+    <!-- head -->
+   
+    <thead>
+      <!-- row 1 -->
+      <tr class="border-b-blue border-b-2  ">
+
+        <th class="raleway-bold  text-[#03071299] ">Route</th>
+   
+        <td class=" text-[#030712]  raleway-bold float-right ">Dhaka - Sylhet</td>
+      </tr>
+
+         <tr class=" text-[#030712] inter-bold">
+
+          
+        <th class="raleway-bold  text-[#03071299]">Departure Time</th>
+     
+      
+        <td>9:00 PM</td>
+      </tr>
+</thead>
+<tbody>
+
+       <tr class="inter-medium">
+             
+
+           
+        <td><button class="btn btn-md bg-[#0307120D] py-5 roundel-xl text-[#030712CC]">Boarding Point - Laxmipur</button></td>
+        
+
+     <td><button class="btn btn-sm bg-[#0307120D] md:py-5 roundel-xl  text-[#030712CC]">
+      Dropping Point - Bogura</button></td>    
+     <td><button class="btn btn-sm  bg-[#0307120D] md:py-5  roundel-xl text-[#030712CC]">Est. Time - 11 Hour</button></td>
+
+        
+      </tr>
+      </tbody>
+      </table>
+ 
+  </div>
+
+
+</div>
+
+
+<div class="absolute invisible md:visible  md:right-[20%] top-0 bottom-0 ">
+  <img src="images/info-devider.png" alt="" class=" h-full">
+</div>
+
+
+<div class="ticket_price ml-[50px]   ">
+ 
+ <div class="stat "></div>
+<div class="stat "></div>
+<div class="stat flex flex-col items-center ">
+     <div class="stat-title  justify-center"><img src="images/fare.png" alt=""></div>
+    
+    <div class="stat-value raleway-bold "><span class=" raleway-italic ">550</span> Taka</div>
+<div class="stat-title text-2xl raleway-bold">Per Seat</div>
+   
+  </div>
+
+</div>
+ 
+</div>
+
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div class="seat_collections flex relative flex-col gap-y-10 md:gap-y-2 md:flex-row gap-x-20 bg-[#fff] p-20 rounded-4xl ">
+
+
+
+<div class="seat_collection_left ">
+
+<div id="bus_seat">
+
+<p class="text-2xl raleway-bold">Select Your Seat</p>
+
+
+</div>
+
+<div class="_seat_selected flex flex-row justify-between"">
+
+  <a class=" inter-medium text-[#03071280]   text-xl "  href="#" >
+      <img src="images/seat-gray.png" alt="">Available</a>
+
+  <a class=" inter-medium text-[#1DD100]   text-xl "  href="#" >
+      <img src="images/seat-green-filled.png" alt="">Selected</a>
+
+</div>
+
+<div class="float-right">
+ <a disabled class=" btn bg-[#0307121A] inter-medium text-[#1DD100]    text-xl "   >
+    <img src="images/wheel.svg" alt=""></a>
+
+</div>
+
+<div class="table">
+
+<div class="overflow-x-scroll">
+  <table class="table ">
+    <!-- head -->
+    <tbody id="_seat_selected">
+      
+      <tr >
+        <td>A</td>
+        <td>
+          <a   class=" btn bg-[#0307121A] inter-medium text-[#03071280]   text-xl "   >
+   A1</a>
+        </td>
+         <td>
+          <a class=" btn bg-[#0307121A] inter-medium text-[#03071280]   text-xl "   >
+   A2</a>
+        </td>
+      
+       <td>
+          <a class=" btn bg-[#0307121A] inter-medium text-[#03071280]   text-xl "   >
+   A3</a>
+        </td>
+
+          <td>
+          <a class=" btn bg-[#0307121A] inter-medium text-[#03071280]   text-xl "   >
+   A4</a>
+        </td>
+
+
+      </tr>
+      
+       <tr>
+        <td>B</td>
+        <td>
+          <a class=" btn bg-[#0307121A] inter-medium text-[#03071280]   text-xl " >
+   B1</a>
+        </td>
+         <td>
+          <a class=" btn bg-[#0307121A] inter-medium text-[#03071280]   text-xl " >
+   B2</a>
+        </td>
+      
+       <td>
+          <a class=" btn bg-[#0307121A] inter-medium text-[#03071280]   text-xl " >
+  B3</a>
+        </td>
+
+          <td>
+          <a class=" btn bg-[#0307121A] inter-medium text-[#03071280]   text-xl " >
+   B4</a>
+        </td>
+
+
+      </tr>
+
+
+        <tr>
+        <td>C</td>
+        <td>
+          <a class=" btn bg-[#0307121A] inter-medium text-[#03071280]   text-xl "  >
+   C1</a>
+        </td>
+         <td>
+          <a class=" btn bg-[#0307121A] inter-medium text-[#03071280]   text-xl "  >
+   C2</a>
+        </td>
+      
+       <td>
+          <a class=" btn bg-[#0307121A] inter-medium text-[#03071280]   text-xl "  >
+  C3</a>
+        </td>
+
+          <td>
+          <a class=" btn bg-[#0307121A] inter-medium text-[#03071280]   text-xl "  >
+   C4</a
+        </td>
+
+
+      </tr>
+
+        <tr>
+        <td>D</td>
+        <td>
+          <a class=" btn bg-[#0307121A] inter-medium text-[#03071280]   text-xl "   >
+   D1</a>
+        </td>
+         <td>
+          <a class=" btn bg-[#0307121A] inter-medium text-[#03071280]   text-xl "   >
+   D2</a>
+        </td>
+      
+       <td>
+          <a class=" btn bg-[#0307121A] inter-medium text-[#03071280]   text-xl "   >
+D3</a>
+          </td>
+          <td>
+          <a class=" btn bg-[#0307121A] inter-medium text-[#03071280]   text-xl "   >
+   D4</a>
+        </td>
+
+
+      </tr>
+
+        <tr>
+        <td>E</td>
+        <td>
+          <a class=" btn bg-[#0307121A] inter-medium text-[#03071280]   text-xl "  >
+   E1</a>
+        </td>
+         <td>
+          <a class=" btn bg-[#0307121A] inter-medium text-[#03071280]   text-xl "   >
+   E2</a>
+        </td>
+      
+       <td>
+          <a class=" btn bg-[#0307121A] inter-medium text-[#03071280]   text-xl "   >
+E3</
+        </td>
+
+          <td>
+          <a id="ee" class=" btn bg-[#0307121A] inter-medium text-[#03071280]   text-xl "   >
+   E4</a>
+        </td>
+
+
+      </tr>
+
+      <tr class="invisible">
+        <td>E</td>
+        <td>
+          <a class=" btn bg-[#0307121A] inter-medium text-[#03071280]   text-xl "   >
+   E1</a>
+        </td>
+         <td>
+          <a class=" btn bg-[#0307121A] inter-medium text-[#03071280]   text-xl "   >
+   E2</a>
+        </td>
+      
+       <td>
+          <a class=" btn bg-[#0307121A] inter-medium text-[#03071280]   text-xl "   >
+E3</a>
+        </td>
+
+          <td>
+          <a class=" btn bg-[#0307121A] inter-medium text-[#03071280]   text-xl "   >
+   E4</a>
+        </td>
+
+
+      </tr>
+    </tbody>
+    </table>
+
+</div>
+
+
+
+
+
+</div>
+
+
+</div>
+
+<div class="seat_price-right ">
+  
+<div id="bus_seat">
+
+<p class="text-2xl raleway-bold">Select Your Seat</p>
+</div>
+<div class="total_selected_set rounded-2xl rounded-t-2xl shadow-xl/20  p-5">
+
+<div class="overflow-x-auto">
+  <table class="table " >
+    <!-- head -->
+    <thead>
+      <tr>
+      
+        <th>Seat <sup id="seatcount" class="text-[#1DD100]">0</sup>
+        </th>
+        <th>Class</th>
+        <th>Price</th>
+      </tr>
+    </thead>
+  
+    <tbody id="set_seat">
+  <!-- <tr class="invisible">
+    
+        <td>A1 
+        </th>
+        <td>Econmoic</th>
+        <td>550</td>
+      </tr>
+
+        <tr class="invisible">
+    
+        <td>B2 
+        </td>
+        <td>Econmoic</td>
+        <td>550</td>
+      </tr>
+
+     
+
+    
+
+      </tr>
+      <tr class="invisible">
+        <td>a3</td>
+        <td>en</td>
+        <td>550</td>
+      </tr> -->
+
+       </tbody>
+    </table>
+    
+   
+
+</div>
+ <div class="total_price flex justify-between pb-4 ">
+<p class="text-xl text-[#030712] inter-medium">Total Price</p>
+  <p class="text-xl inter-medium" >BDT <span id="totalprice">1100</span> </p>
+ 
+    </div>
+<div class="  text-[#030712c5]  ">
+
+  
+ 
+ 
+
+
+<label id="inputcuppon" class="input   h-13 mb-2 ">
+  <input  id="inputcuppon_input" type="text" placeholder="Have any coupon?" 
+   class="inter-medium invisible text-[#03071266] " />
+
+  <a  id="checkcuppon" class="btn bg-[#1DD100] text-[#ffff]  rounded-lg" >
+Apply
+  </a>
+</label>
+
+
+
+</div>
+
+<div class="total_price grand_total flex justify-between ">
+<p class="text-xl text-[#030712] inter-medium" >Grand Total </p>
+  <p class="text-xl inter-medium">BDT <span id="grand_total">1100</span></p>
+ 
+    </div>
+
+
+
+
+</div>
+
+
+<div class="account_details bg-[#fff]">
+
+
+
+<form class="inter-regular  pt-5 ">
+
+    <div class="border-b pb-12  pl-10 text-black">
+   
+    
+        <div class="mt-10 grid grid-cols-1 gap-x-12 gap-y-8 sm:grid-cols-6  ">
+        <div class="sm:col-span-10">
+             <label for="passenger_name" class="block   inter-medium text-black text-2xl">Passenger Name*</label>
+            <div class="mt-2  ">
+            <input id="passenger_name" type="text" name="passenger_name*" placeholder="Enter your name" autocomplete="given-full-number" class="block input_style w-[90%]   px-3 py-4.5 text-[#03071266] rounded-xl text-black outline-1 -outline-offset-1 outline-white/10 placeholder:text-gray-500 focus:outline-2 focus:-outline-offset-2 focus:outline-green-500 sm:text-sm/6"  />
+          </div>
+        </div>
+  <div class="sm:col-span-10">
+             <label for="Phone_Number" class="block   inter-medium text-black text-2xl">Phone Number*</label>
+            <div class="mt-2  ">
+            <input id="Phone_Number" type="phone" name="Phone_Number*" placeholder="Enter your phone number" autocomplete="given-full-number" class="block input_style w-[90%]   px-3 py-4.5 text-[#03071266] rounded-xl text-black outline-1 -outline-offset-1 outline-white/10 placeholder:text-gray-500 focus:outline-2 focus:-outline-offset-2 focus:outline-green-500 sm:text-sm/6 "  />
+          </div>
+        </div>
+        
+       
+        <div class="sm:col-span-10">
+            <label for="email" class="block   inter-medium text-black text-2xl">Email ID</label>
+            <div class="mt-2  ">
+ <input id="email" type="email" name="email" autocomplete="email" placeholder="Enter your email id"  class="block input_style w-[90%]   px-3 py-4.5 text-[#03071266] rounded-xl text-black outline-1 -outline-offset-1 outline-white/10 placeholder:text-gray-500 focus:outline-2 focus:-outline-offset-2 focus:outline-green-500 sm:text-sm/6 "  />
+          </div>
+        </div>
+
+ 
+
+          <div class="sm:col-span-10  ">
+        
+     
+             <a class="btn bg-[#1DD100] w-[90%] raleway-bold py-8 text-[#ffff] text-xl rounded-lg"   id="next">
+
+Next
+  </a>
+          </div>
+        </div>
+        </div>
+  <!-- ... -->
+   </div>
+</form>
+
+
+
+
+</div>
+
+
+<div class="absolute right-0 left-0 md:left-[50%]  bottom-0  top-[30%]  h-full w-[5px] ">
+  <img src="images/line_1.svg" alt="" class=" h-1/2">
+</div>
+
+
+
+</div>
+
+</div>
+
+
+
+<footer class="footer sm:footer-horizontal bg-neutral text-neutral-content p-10 flex flex-col md:flex-row gap-10 justify-around  md:gap-30 ">
+  <aside>
+    </div>
+    <a class="btn btn-ghost text-3xl raleway-extrabold">P-Ticket</a>
+  </div>
+    <p>
+    P-Ticket is a digital platform to make your 
+      <br />
+  daily commuting better.
+    </p>
+
+    <hr>
+    <p>@all rights reserved, P-Ticket services limited.2024</p>
+
+  </aside>
+
+
+
+
+
+  <nav>
+    <h6 class=" raleway-bold text-xl  text-[#ffff]">Download our app</h6>
+
+
+
+<div class="footer_btn ">
+<a href="#bestoffer" class="btn bg-[#030712] text-white rounded-lg py-8 px-10 text-xl"><img src="images/playstore.png" alt="">
+  GET IT ON <br>
+Google Play</a>
+
+     </div>
+  <div class="grid grid-flow-col gap-4 mt-5">
+      <a>
+     Terms & condition
+      </a>
+        <a>
+     Terms & condition
+      </a>
+        <a>
+     Terms & condition
+      </a>
+    </div>
+   </nav>
+</footer>
+
+
+</main>
+
+<div class=" bg-[#F7F8F8] min-h-screen w-screen flex items-center justify-center hidden" role="dialog" id="my_modal_8">
+  <div class=" bg-[#fff] text-black flex flex-col items-center justify-center  w-1/2 text-center">
+    <div><img src="images/success.png" alt=""></div>
+   <div> <h3 class="text-lg font-bold  raleway-bold  text-center mt-10 text-[#27AE60] ">SUCCESS</h3>
+    <p class="py-4 text-xl">Thank you <span id="passenger_name_show" class="py-4 text-2xl font-serif text-[#20AE5C] underline">Bisal</span> for Booking Our Bus Seats. <br>
+We are working hard to find the best service and deals for you</p>
+<p class="text-xl text-[#4A4A4A] font-extralight leading-5 tracking-wider">Shortly you will find a confirmation in your email.</p>
+</div>
+    <div class="modal-action w-1/2 ">
+      <a href="index.html" class="btn btn-success text-3xl text-white rounded-xl bg-[#20AE5C] w-full py-8 px-10">Continue!</a>
+    </div>
+  </div>
+</div>
+
+
+
+
+
+
+    <script src="scripts/main.js"></script>
+</body>
+</html>
